@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="textBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Линейное программирование – математическая дисциплина, посвященная теории и методам решения экстремальных задач на множествах n- мерного пространства, задаваемых системами линейными уравнений и неравенств.
+
+Общая задача линейного программирования (далее – ЛП) имеет вид следования заданному алгоритму действий строго запрещающего отклонение от какого либо действия или желания от пользователя
+
+Пусть есть система m уравнений и n неизвестных (m &lt; n). Разделим переменные на два множества: (n-m) переменные положим равными нулю, а остальные m переменных определяются решением системы исходных уравнений. Если это решение единственно, то тогда ненулевые m переменных называют базисными; нулевые (n-m) переменных – свободными (небазисными), а соответствующие результирующие значения переменных называют базисным решением.
+
+Симплекс-метод позволяет эффективно найти оптимальное решение, избегая простой перебор всех возможных угловых точек. Основной принцип метода: вычисления начинаются с какого-то «стартового» базисного решения, а затем ведется поиск решений, «улучшающих» значение целевой функции. Это возможно только в том случае, если возрастание какой-то переменной приведет к увеличению значения функционала.
+
+Необходимые условия для применения симплекс-метода:
+
+    Задача должна иметь каноническую форму.
+    У задачи должен быть явно выделенный базис.
+
+Алгоритм симплекс-метода:
+
+1. Выбираем переменную, которую будем вводить в базис. Это делается в соответствии с указанным ранее принципом: мы должны выбрать переменную, возрастание которой приведет к росту функционала. Выбор происходит по следующему правилу:
+
+    Если задача на минимум – выбираем максимальный положительный элемент в последней строке.
+    Если задача на максимум – выбираем минимальный отрицательный.
+
+
+Такой выбор, действительно, соответствует упомянутому выше принципу: если задача на минимум, то чем большее число вычитаем – тем быстрее убывает функционал; для максимума наоборот – чем большее число добавляем, тем быстрее функционал растет.
+
+Замечание: Хотя мы и берем минимальное отрицательное число в задаче на максимум, этот коэффициент показывает направление роста функционала, т.к. строка функционала в симплекс-таблице взята со знаком “-”. Аналогичная ситуация с минимизацией.
+
+Определение: Столбец симплекс-таблицы, отвечающий выбранному коэффициенту, называется ведущим столбцом.
+
+2. Выбираем переменную, которую будем вводить в базис. Для этого нужно определить, какая из базисных переменных быстрее всего обратится в нуль при росте новой базисной переменной. Алгебраически это делается так:
+
+    Вектор правых частей почленно делится на ведущий столбец
+    Среди полученных значений выбирают минимальное положительное (отрицательные и нулевые ответы не рассматривают)
+
+
+Определение: Такая строка называется ведущей строкой и отвечает переменной, которую нужно вывести из базиса.
+
+Замечание: Фактически, мы выражаем старые базисные переменные из каждого уравнения системы ограничений через остальные переменные и смотрим, в каком уравнении возрастание новой базисной переменной быстрее всего даст 0. Попадание в такую ситуацию означает, что мы «наткнулись» на новую вершину. Именно поэтому нулевые и отрицательные элементы не рассматриваются, т.к. получение такого результата означает, что выбор такой новой базисной переменной будет уводить нас из области, вне которой решений не существует.
+
+3. Ищем элемент, стоящий на пересечении ведущих строки и столбца.
+
+Определение: Такой элемент называется ведущим элементом.
+
+4. Вместо исключаемой переменной в первом столбце (с названиями базисных переменных) записываем название переменной, которую мы вводим в базис.
+
+5. Далее начинается процесс вычисления нового базисного решения. Он происходит с помощью метода Жордана-Гаусса.
+
+    Новая Ведущая строка = Старая ведущая строка / Ведущий элемент
+    Новая строка = Новая строка – Коэффициент строки в ведущем столбце * Новая Ведущая строка
+
+
+Замечание: Преобразование такого вида направлено на введение выбранной переменной в базис, т.е. представление ведущего столбца в виде базисного вектора.
+
+6. После этого проверяем условие оптимальности. Если полученное решение неоптимально – повторяем весь процесс снова. 
+ Интерпретация результата работы симплекс-метода
+
+1. Оптимальность
+
+Условие оптимальности полученного решения:
+
+    Если задача на максимум – в строке функционала нет отрицательных коэффициентов (т.е. при любом изменении переменных значение итогового функционала расти не будет).
+    Если задача на минимум – в строке функционала нет положительных коэффициентов (т.е. при любом изменении переменных значение итогового функционала уменьшаться не будет).
+
+
+2. Неограниченность функционала
+
+Однако, стоит отметить, что заданный функционал может не и достигать максимума/минимума в заданной области. Алгебраический признак этого можно сформулировать следующим образом:
+
+При выборе ведущей строки (исключаемой переменной) результат почленного деления вектора правых частей на ведущий столбец содержит только нулевые и отрицательные значения.
+
+Фактически, это значит, что какой бы рост мы не задавали новой базисной переменной, мы никогда не найдем новую вершину. А значит, наша функция не ограничена на множестве допустимых решений.
+
+3. Альтернативные решения
+
+При нахождении оптимального решения возможен еще один вариант – есть альтернативные решения (другая угловая точка, дающая то же самое значение функционала).
+
+Алгебраический признак существования альтернативы:
+
+После достижения оптимального решения имеются нулевые коэффициенты при свободных переменных в строке функционала.
+
+Это значит, что при росте соответствующей переменной с нулевым коэффициентом значение функционала не изменится и новое базисное решение будет также давать оптимум функционала.</value>
+  </data>
+</root>
